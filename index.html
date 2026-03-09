@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <title>Můj první GitHub web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #4facfe, #00f2fe);
-            color: white;
-            text-align: center;
-            padding-top: 100px;
-        }
+<meta charset="UTF-8">
+<title>Můj první GitHub web</title>
 
-        .box {
-            background: rgba(0,0,0,0.3);
-            padding: 30px;
-            border-radius: 15px;
-            display: inline-block;
-        }
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
 
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
-        }
-    </style>
+    /* background obrázek */
+    background-image: url("logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #0e7fa6;
+}
+
+.box {
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+</style>
+
 </head>
 <body>
 
 <div class="box">
     <h1>🎉 Funguje to!</h1>
     <p>Tento web běží z GitHubu.</p>
-    <button onclick="alert('GitHub Pages funguje! 🚀')">Klikni na mě</button>
+    <button onclick="alert('GitHub Pages funguje! 🚀')">
+        Klikni na mě
+    </button>
 </div>
 
 </body>
